@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="241CF27F-C384-1366-72A2-0114DBEA2D8F" containerWithKeyObject="D101093F-47BD-822B-A74C-A93D4575BCFD" localFKIndex="54C62637-2CFA-3D46-05FC-65AF53AD6EF5" name="Narudzba_Kupac_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:25 UTC</createdTime>
+<generatorID>00808A6E-C54D-AC52-5A2D-31E36BC0136C</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<referredTableLongName>Kupac</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>51AED960-6AAB-3593-A14C-F3786E40144A</referredTableID>
+<keyObject>CC2394DC-D044-E4E4-B4AD-1A8E3F7CF514</keyObject>
+<referredKeyID>CC2394DC-D044-E4E4-B4AD-1A8E3F7CF514</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>KUP_Kupac_ID</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

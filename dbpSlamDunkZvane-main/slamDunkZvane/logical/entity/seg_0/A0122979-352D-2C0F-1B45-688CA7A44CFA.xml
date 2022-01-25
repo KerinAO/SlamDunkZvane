@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A0122979-352D-2C0F-1B45-688CA7A44CFA" name="Naruceni artikl">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:48:52 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>NAK</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="narucena_kolicina" id="B9DB7270-6EF7-31A0-E93F-64231D1E19F4">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 12:00:53 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="isporucena_kolicina" id="41368A24-9EA7-97F4-EE70-8B31BDF0EA4C">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 12:01:13 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Narudzba_ID" id="47A7163C-C16F-24DA-0294-BA6E0685201A">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:26:21 UTC</createdTime>
+<generatorID>786740C5-F52E-D29C-8572-99F775F28707</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+</engineerTo>
+<referedAttribute>93C4E9C6-2AE7-EF53-B508-182C4BE09879</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Artikl_ID" id="B09A1A5E-7EA2-3C15-E42C-3A7F0D69DB8D">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:26:26 UTC</createdTime>
+<generatorID>472748F3-FC23-7C17-1FEB-0D6EB865D5CA</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+</engineerTo>
+<referedAttribute>ABA72962-B114-7287-9307-0D31A40ABAAA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="236C657D-88D7-8A73-9EFF-F3A7890920E6" name="Naruceni artikl PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:26:21 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>47A7163C-C16F-24DA-0294-BA6E0685201A</attributeRef>
+<attributeRef>B09A1A5E-7EA2-3C15-E42C-3A7F0D69DB8D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
